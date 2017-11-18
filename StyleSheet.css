@@ -1,3 +1,103 @@
-﻿.project{
-    font-weight:800;
+﻿
+.content-headline{
+    text-align:center;
+    font-weight:900;
+    color:red;
+    font-family:'Times New Roman', Times, serif;
 }
+
+.container{
+    background-size: auto;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+body {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    color:red;
+
+}
+
+.project-block{
+    background-size: auto;
+    width: 100%;
+    height: auto;
+}
+
+#coffeeshop{
+    background-image: url('images/coffeeshop.PNG');
+    background-size: auto;
+    width: 100%;
+    height: auto;
+}
+
+#lifeisstrange{
+    background-image: url('images/lifeisstrange.PNG');
+    background-size: auto;
+    width: 100%;
+    height: auto;
+}
+
+#wardrobe{
+
+    background-image: url('images/Wardrobe.PNG');
+    background-size: auto;
+    width: 100%;
+    height: auto;
+}
+    
+#reviewsite{
+    background-image: url('images/reviewsite.PNG');
+    background-size: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.project-overlay {
+  height: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 2px solid #a7681f;
+  background-color: #92918f;
+  opacity: 0;
+  -webkit-transition: opacity 800ms ease-in-out;
+  transition: opacity 800ms ease-in-out;
+  text-align: center;
+}
+
+.project-overlay:hover {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.github-link {
+  position: static;
+  margin-top: 2%;
+  -webkit-transform: scale(0.78);
+  -ms-transform: scale(0.78);
+  transform: scale(0.78);
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  font-family: 'Fontawesome webfont', sans-serif;
+  color: #d7d7d7;
+  font-size: 6em;
+  text-decoration: none;
+}
+
+.github-link:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  color: #a7681f;
+}
+
